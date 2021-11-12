@@ -1,9 +1,9 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Transform: 'AWS::Serverless-2016-10-31'
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: "AWS::Serverless-2016-10-31"
 Description: NA
 Resources:
   LF1indexphotos:
-    Type: 'AWS::Serverless::Function'
+    Type: "AWS::Serverless::Function"
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
@@ -11,8 +11,7 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: >-
-        arn:aws:iam::178386020143:role/service-role/LF1_index_photos-role-48425lx9
+      Role: arn:aws:iam::178386020143:role/service-role/LF1_index_photos-role-48425lx9
       Events:
         BucketEvent1:
           Type: S3
