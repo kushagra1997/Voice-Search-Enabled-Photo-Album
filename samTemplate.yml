@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: .
+      CodeUri: ./LF1_index_photos
       Description: ''
       MemorySize: 128
       Timeout: 3
@@ -46,7 +46,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: .
+      CodeUri: ./LF2_search_photos
       Description: ''
       MemorySize: 128
       Timeout: 3
