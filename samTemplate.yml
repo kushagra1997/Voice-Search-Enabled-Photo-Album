@@ -11,7 +11,7 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: arn:aws:iam::178386020143:role/service-role/LF1_index_photos-role-48425lx9
+      Role: "arn:aws:iam::178386020143:role/service-role/LF1_index_photos-role-48425lx9"
       Events:
         BucketEvent1:
           Type: S3
@@ -49,8 +49,7 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: >-
-        arn:aws:iam::178386020143:role/service-role/LF2_search_photos-role-mrks3hoh
+      Role: "arn:aws:iam::178386020143:role/service-role/LF2_search_photos-role-mrks3hoh"
       Events:
         CloudWatchEvent1:
           Type: CloudWatchEvent
