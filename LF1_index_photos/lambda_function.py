@@ -12,6 +12,7 @@ headers = {
     "Content-Type": "application/json"
     }
 
+#test comment
 def get_labels_from_response(response):
     print("Labels are: ")
     labels = list()
